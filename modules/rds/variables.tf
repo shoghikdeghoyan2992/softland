@@ -68,3 +68,9 @@ variable "app_security_group_id" {
   description = "ID of the application security group"
   type        = string
 }
+
+variable "multi_az" {
+  description = "Specifies if the RDS instance is a multi-AZ deployment."
+  type        = bool
+  default     = false
+}

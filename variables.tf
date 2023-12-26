@@ -51,3 +51,8 @@ variable "db_instance_class" {
   description = "The database instance class"
   type        = string
 }
+
+# variable "security_group_ids" {
+#   description = "The ID of the security group"
+#   type        = string
+# }
